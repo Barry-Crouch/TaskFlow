@@ -1,0 +1,69 @@
+{% load static %}
+
+<div class="container-fluid p-0 mt-3">
+
+    <ul class="mb-2 row">
+      <li>
+        <div class="d-flex flex-row justify-content-between p-0">
+        <span>
+          <img class="proj" src="{% static 'images/overview.svg' %}" alt="">Over View</span>
+          <img src="{% static 'images/plus.svg' %}" alt="">
+        </div>
+      </li>
+      <li class="justify-content-center"><hr class="mt-0" style="width:100%; opacity:0.1;"></li>
+      <li>
+
+          <div class="card todo-card-parent mt-1">
+            <div class="card-body todo-card">
+              <ul>
+                <li>
+                    <input class="todo" type="checkbox"><small class="todo">To Do 1s</small>
+                </li>
+                <li>
+                    <div class="d-flex flex-row justify-content-between">
+                      <div>
+                        <span class="badge bg-secondary border-0 tag m-1">tag 1</span>
+                        <span class="badge bg-secondary border-0 tag m-1">tag 2</span>
+                      </div>
+                      <small class="">May 20, 2020</small>
+                    </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </li>
+
+    </ul>
+
+
+
+
+
+    <ul class="mb-2 row mt-4">
+        <li>
+          <div class="d-flex flex-row justify-content-between p-0">
+          <span>
+            <img class="proj" src="{% static 'images/note.svg' %}" alt="">Notes</span>
+            <img src="{% static 'images/plus.svg' %}" alt="">
+          </div>
+        </li>
+        <li class="justify-content-center mt-0"><hr class="mt-0" style="width:100%; opacity:0.1;"></li>
+        <li>
+  
+          <div class="card todo-card-parent shadow-sm" style="">
+            <div class="card-body pt-1 pb-1">
+              <h5 class="card-title"><img class="proj" src="{% static 'images/note2.svg' %}" alt="">
+               <small class="note-date">Apr, 03-2020</small></h5>
+              <h6 class="card-subtitle mb-2 mt-2 note-title opacity-100 h6">Note title</h6>
+              <p class="card-text opacity-50 h6 text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="mb-2">
+                <span class="badge badge-pill bg-success bg-opacity-75">primary</span>
+                <span class="badge badge-pill bg-info bg-opacity-75">warning</span>
+              </div>
+            </div>
+          </div>
+        </li>
+  
+      </ul>
+
+</div>

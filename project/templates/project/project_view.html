@@ -1,0 +1,98 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<div class="container-fluid mt-5 p-0">
+  <div class="col bg-white rounded-3" style="padding:2vw">
+    <div class="row pj-bg" style="background-image: url({% static 'images/grad3.png' %})">
+      <div class="row">
+
+
+        <div class="col-6 p-0">
+
+
+            <div class="d-flex flex-row sidebar-btn">
+              <img class="" src="{% static 'images/proj1.svg' %}" alt="" />
+              <div class="col proj-t-d">
+                <span class="row opacity-100 h6 text-white mb-0">Project Title</span
+                ><span class="row text-white">project more descriptions</span>
+              </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="col-3">
+          <div class="row"><small class="h6">Creared</small></div>
+          <div class="row">
+            <small class="opacity-75 h6">Apr, 02, 2020</small>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="row"><small class="h6">Deadline</small></div>
+          <div class="row">
+            <small class="opacity-75 h6">Apr, 02, 2020</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="row mt-2">
+        <div class="col pt-2">
+            <table class="table w-100">
+                <tbody>
+                  <tr>
+                    <th scope="row">
+                        <button class="bg-white text-black-50 border-0 p-0">
+                        <img class="proj" src="{% static 'images/created.svg' %}" alt="">Created At</button>
+                    </th>
+                    <td class="h6 opacity-50">May, 15 2022 14:23 PM</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">
+                        <button class="bg-white text-black-50 border-0 p-0">
+                        <img class="proj" src="{% static 'images/tags.svg' %}" alt="">Tags</button>
+                    </th>
+                    <td>
+                        <div>
+                            <span class="badge badge-pill bg-primary bg-opacity-75">primary</span>
+                            <span class="badge badge-pill bg-warning bg-opacity-75">warning</span>
+                        </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">
+                        <button class="bg-white text-black-50 border-0 p-0">
+                        <img class="proj" src="{% static 'images/assignee.svg' %}" alt="">Assign</button>
+                    </th>
+                    <td><span class="btn bg-secondary text-white border-0 opacity-50 rounded-3 h6 p-2 pt-0 pb-0">@ Barry Crouch</span></td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">
+                        <button class="bg-white text-black-50 border-0 p-0">
+                        <img class="proj" src="{% static 'images/prio.svg' %}" alt="">Poriority</button>
+                    </th>
+                    <td><span class="btn bg-success text-white border-0 opacity-50 rounded-3 p-2 pt-0 pb-0">Low</span></td>
+                  </tr>
+
+                </tbody>
+              </table>
+        </div>
+
+
+        <div class="col pt-3">
+            <div class="row"><span class="h6">Describtion</span></div>
+            <div class="row"><p class="opacity-50">TaskFlow is an intuitive task management system designed
+                 to help teams collaborate and manage their projects with ease. It offers powerful
+                  features such as task tracking, project organization, scheduling, and communication
+                   tools to keep teams organized and on top of their projects.</p></div>
+
+        </div>
+
+    </div>
+  </div>
+</div>
+{% endblock content %}

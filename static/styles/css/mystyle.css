@@ -1,0 +1,162 @@
+@font-face {
+    font-family: "Plus Jakarta Sans";
+    src: url('../fonts/PlusJakartaSans/PlusJakartaSans-VariableFont_wght.ttf');
+}
+
+
+body {
+    background-color: #F9F8FF;
+}
+
+img.title {
+    height: 2.7vw;
+    margin: 2.5vw auto 1.5vw auto;
+}
+nav, ul {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+
+}
+li {
+    text-decoration: none;
+    text-emphasis: none;
+    justify-content: start;
+}
+div.main-sidebar, div.main-right-menu {
+    height: 100vh;
+    background-color: white;
+    padding: 0 2vw 0 2vw;
+}
+
+div.sidebar-title {
+    width: 100%;
+    padding-left: 1vw;
+}
+
+button.sidebar-btn {
+    padding: 0.4vw 2.5vw 0.4vw 1vw;
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+.btn-check:focus+.sidebar-btn, .sidebar-btn:focus {
+    background: linear-gradient(270deg, #9CAEF7 22.12%, rgba(85, 119, 255, 0) 100%) !important;
+    color: #3f3f3f !important;
+    box-shadow: none !important;
+}
+i {
+    margin-right: 0.5vw;
+}
+h6 {
+    opacity: 0.25;
+    font-weight: 400;
+}
+img.proj {
+    margin-right: 0.5vw;
+}
+img.fold {
+    margin-left: 1.5%;
+
+}
+span.folder-title {
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: medium;
+}
+small {
+    opacity: 0.4;
+    font-size: small;
+}
+.home-card {
+    border-radius: 0px 10px 10px 10px;
+    box-shadow: 3px 4px 10px rgba(14, 0, 95, 0.15);
+}
+
+.latest {
+    border-radius: 10px 10px 10px 10px;
+    padding: 0;
+}
+.latest-body {
+    padding: 4%;
+}
+
+img.grad-small {
+    width: 100%;
+    height: 8vw;
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+}
+span.proj-card {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+small.proj-card {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+span.tag {
+    border-radius: 50px;
+    /* height: 1.5vw; */
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0.2vw 0.5vw 0.4vw 0.5vw;
+}
+img.proj-card {
+    height: 100%;
+}
+
+.proj-card-text {
+    margin-left: 0.5vw;
+}
+.todo-card {
+    background-color: #F9F8FF;
+    border-radius: 10px;
+    padding: 0.4vw 1vw 0.4vw 1vw;
+
+}
+.todo-card-parent {
+    border-radius: 10px;
+    border: 1px solid #E6E4F0;
+}
+input.todo {
+    color: #5577FF;
+    border: 1px solid #5577FF;
+}
+small.todo {
+    margin-left: 1vw;
+    opacity: 0.8;
+    font-size: 15px;
+    font-weight: 500;
+    color: #5577FF;
+}
+
+div.pj-bg {
+    border-radius: 14px;
+    padding: 8vw 1vw 1vw 1vw;
+
+    height: 12vw;
+    background-size: cover;
+    margin: auto;
+}
+div.proj-t-d {
+    margin-left: 1vw;
+}
+
+table, th, td {
+    border: none;
+}

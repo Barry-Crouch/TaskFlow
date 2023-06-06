@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %}
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Flow</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7CRoboto:300,400,500,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'styles/css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'styles/css/fontawesome.css' %}" />
+    <link rel="stylesheet" href="{% static 'styles/css/mystyle.css' %}" />
+    <link rel="stylesheet" href="{% static 'styles/css/plugins.css' %}" />
+    <link rel="stylesheet" href="{% static 'styles/css/color.css' %}" />
+    <link rel="stylesheet" href="{% static 'styles/css/responsive.css' %}" />
+  </head>
+  <body>
+    <div class="main row">
+      <div class="col-lg-2 col-md-3 col-sm-4 main-sidebar">
+      {% include 'sidebar.html' %}
+      </div>
+
+      <div class="col-lg-7 col-md-7 col-sm-5">
+      {% include 'messages.html' %}
+      {% block content %}
+      
+      
+
+
+
+
+      
+      {% endblock content %}
+      </div>
+
+
+      <div class="col-lg-3 col-md-2 col-sm-3 main-right-menu">
+        {% include 'rightbar.html' %}
+      </div>
+
+
+      <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+      <script src="{% static 'js/popper.min.js' %}"></script>
+      <script src="{% static 'js/bootstrap.min.js' %}"></script>
+      <script src="{% static 'js/jqueryCustome.js' %}"></script>
+      <script type="text/javascript" src="{% static 'js/cart.js' %}"></script>
+    </div>
+  </body>
+</html>
